@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1,
+h2 {
+  color: #fff;
+}
+
+p {
+  color: hsl(217, 12%, 63%);
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  user-select: none;
+  cursor: pointer;
+}
+
+.btn {
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  height: 50px;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  padding-top: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+}
+
+.btn:focus {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  padding: 7px;
+  width: 100%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  margin-top: 32px;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.btn-submit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.Menu-principal, .Menu-final {
+  background-image: linear-gradient(to bottom,
+    hsl(212, 18%, 14%),
+    hsl(220, 16%, 11%)
+  );
+  max-width: 400px;
+  padding: 32px 25px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.Menu-principal img {
+  padding: 13px;
+  border-radius: 50%;
+  background-color: hsl(213, 19%, 18%);
+  margin-bottom: 32px;
+}
+
+.Menu-principal h1,
+.Menu-final h2 {
+  margin-bottom: 17px;
+}
+
+.Menu-principal p,
+.Menu-final p {
+  margin-bottom: 17px;
+}
+
+.Menu-principal ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Menu-final {
+  text-align: center;
+}
+
+.Menu-final h2 {
+  margin-top: 32px;
+}
+
+.Menu-final img {
+  display: block;
+  margin: 0 auto 32px;
+}
+
+.sombreo-calificacion {
+  display: inline-block;
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 7px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.attribution {
+  text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  color: hsl(228, 47%, 61%);
+}
